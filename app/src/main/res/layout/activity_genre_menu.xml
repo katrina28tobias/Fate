@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenreMenuActivity">
+
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE A GENRE"
+        android:textColor="#673AB7"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/romance_button"
+        />
+
+    <Button
+        android:id="@+id/romance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROMANCE"
+        app:layout_constraintBottom_toTopOf="@+id/scifi_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genre" />
+
+    <Button
+        android:id="@+id/scifi_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCI-FI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/romance_button"
+        app:layout_constraintBottom_toTopOf="@+id/horror_button"
+ />
+
+    <Button
+        android:id="@+id/horror_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORROR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scifi_button"
+        app:layout_constraintBottom_toTopOf="@+id/drama_button"/>
+
+    <Button
+        android:id="@+id/drama_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRAMA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horror_button"
+        app:layout_constraintBottom_toTopOf="@+id/continue_button" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drama_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
