@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Fate</string>
+    <string name="example_desc">Synopsis: You meet the love of your life one way or other</string>
+    <string name="example_genre">Genre: Romance</string>
+    <string name="example_title">Title: An Unexpected Encounter</string>
+    <string name="example_img">Two people in a heart</string>
+    <string name="example_completion">Completion: 0%</string>
+    <string name="story_title">Title: %1$s</string>
+    <string name="story_genre">Genre: %1$s</string>
+    <string name="story_desc">Synopsis: %1$s</string>
+    <string name="story_completion">Completion: %1$s%%</string>
 </resources>

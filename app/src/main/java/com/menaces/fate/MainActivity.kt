@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var genreIntent: Intent
+    private lateinit var storyIntent: Intent
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
 
         val startButton : Button = findViewById(R.id.start_button)
         startButton.setOnClickListener {
-            launchGenreMenu()
+            launchStoryMenu()
         }
     }
 
-    private fun launchGenreMenu() {
-        genreIntent = Intent(this, GenreMenuActivity::class.java)
-        startActivity(genreIntent)
+    private fun launchStoryMenu() {
+        storyIntent = Intent(this, StoryMenuActivity::class.java)
+        startActivity(storyIntent)
     }
 
 
