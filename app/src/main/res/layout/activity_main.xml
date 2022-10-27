@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -16,20 +16,20 @@
         android:textColor="#673AB7"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/image_app_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="424dp"
-        android:layout_height="322dp"
-        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        android:id="@+id/image_app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/text_app_name"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
         app:srcCompat="@drawable/app_logo_updated" />
 
     <Button
@@ -37,21 +37,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="START"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/instructions_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintTop_toBottomOf="@+id/image_app_logo" />
 
     <Button
         android:id="@+id/instructions_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INSTRUCTIONS"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/start_button" />
+        app:layout_constraintTop_toBottomOf="@+id/start_button"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
