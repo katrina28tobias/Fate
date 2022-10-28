@@ -7,7 +7,7 @@
     tools:context=".unexpectedEncounter.CoffeeShopActivity">
 
     <TextView
-        android:id="@+id/slam_poetry_text"
+        android:id="@+id/nun_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="16dp"
@@ -15,20 +15,9 @@
         android:textAlignment="viewStart"
         android:textColor="#090909"
         android:textSize="20sp"
-        android:text="@string/slam_poetry_story_p1"
-        app:layout_constraintBottom_toTopOf="@+id/slam_poetry_continue_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/slam_poetry_continue_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/continue_button"
+        android:text="@string/nun_story"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/slam_poetry_text"/>
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

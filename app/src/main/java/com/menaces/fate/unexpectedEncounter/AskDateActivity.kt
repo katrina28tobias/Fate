@@ -7,19 +7,19 @@ import android.widget.Button
 import com.menaces.fate.R
 
 class AskDateActivity : AppCompatActivity() {
-    private lateinit var throwCoffeeIntent: Intent
+    private lateinit var getReadyIntent: Intent
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_throw_coffee)
+        setContentView(R.layout.activity_ask_date)
 
-        val startButton : Button = findViewById(R.id.throw_coffee_continue_button)
+        val startButton : Button = findViewById(R.id.ask_date_continue_button)
         startButton.setOnClickListener {
-//            launchThrowCoffee() // wrong one
+            launchGetReadyScreen()
         }
     }
 
-//    private fun launchThrowCoffee() {
-//        throwCoffeeIntent = Intent(this, ThrowCoffeeActivity::class.java)
-//        startActivity(throwCoffeeIntent)
-//    }
+    private fun launchGetReadyScreen() {
+        getReadyIntent = Intent(this, SlamPoetryActivity::class.java)
+        startActivity(getReadyIntent)
+    }
 }

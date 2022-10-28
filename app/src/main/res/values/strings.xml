@@ -9,5 +9,11 @@
     <string name="story_genre">Genre: %1$s</string>
     <string name="story_desc">Synopsis: %1$s</string>
     <string name="story_completion">Completion: %1$s%%</string>
+    <string name="continue_button">Continue</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="start">START</string>
+    <string name="app_name_capitalized">FATE</string>
+    <string name="sign_post_desc">A sign post with two signs pointing in opposite directions</string>
+    <string name="instructions_text">Hello fellow traveler, Welcome to Fate, an interactive app that allows you to take control of your own journey. By swiping left, right, down, or up, your decisions determine your end destination. Immerse yourself into the world. Good luck and take care, The Creator</string>
 
 </resources>

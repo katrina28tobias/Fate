@@ -16,11 +16,20 @@ class MainActivity : AppCompatActivity() {
         startButton.setOnClickListener {
             launchStoryMenu()
         }
+
+        val instructionsButton: Button = findViewById(R.id.instructions_button)
+        instructionsButton.setOnClickListener{
+            launchInstructions()
+        }
     }
 
     private fun launchStoryMenu() {
-//        storyIntent = Intent(this, StoryMenuActivity::class.java)
         storyIntent = Intent(this, StoryTrialActivity::class.java)
+        startActivity(storyIntent)
+    }
+
+    private fun launchInstructions() {
+        storyIntent = Intent(this, InstructionsActivity::class.java)
         startActivity(storyIntent)
     }
 

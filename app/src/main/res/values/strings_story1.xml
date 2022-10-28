@@ -18,4 +18,11 @@
     <string name="choose_date_story">You can either</string>
     <string name="go_rollerblading_story">Go rollerblading</string>
     <string name="go_to_slam_poetry_story">Go to slam poetry</string>
+    <string name="slam_poetry_story_p1">You get ready for slam poetry and meet Chad in front of the dark alleyway: the entrance to slam poetry. A chill goes up your spine. Chad, noticing, quickly strips off his jacket and gently places it around your shoulders. Nudging him with your elbow, you both enter the land of slam poetry.</string>
+    <string name="slam_poetry_story_p2">A man – tall, lean, hair perfectly gelled back – stands in front of the mic. I look over to Chad and he’s frozen. Who is this man? Mystery Man takes a deep breath and begins to recite his poem: Pick up the phone I’m all alone Chad, what a lad You make me so sad I’m going mad Because of what we had Oh Chad Wouldn’t it be quite rad To go back to the past We had a blast</string>
+    <string name="slam_poetry_story_p3">Before people have the chance to boo, much less snap their fingers, Chad leaves my side and quickly rushes to the stage. As if they were actors in the “You Belong with Me” music video, Chad pulls out a sheet of paper and recites his poem, staring into Mystery Man’s eyes like they were the last things he’ll ever see: Steve, I didn’t leave How I grieve I can’t believe I didn’t see What was right in front of me Will you marry me?</string>
+    <string name="proposal_story">And with that, Chad is down on one knee, ring in hand. Steve, already in tears, nods his head yes. They happily embrace. The crowd goes wild. You can either</string>
+    <string name="proposal_left">Stay to congratulate</string>
+    <string name="proposal_right">Become a nun</string>
+    <string name="nun_story">As the crowd cheers, you make your way to the exit. Heartbroken and alone, you decide to become a nun.</string>
 </resources>
