@@ -29,11 +29,15 @@ class NameErrorActivity : AppCompatActivity() {
     private fun launchAskDate() {
         sIntent = Intent(this, AskDateActivity::class.java)
         startActivity(sIntent)
+        overridePendingTransition(R.anim.slide_in_left,
+            R.anim.slide_out_right);
     }
 
     private fun launchThrowCoffee() {
         sIntent = Intent(this, ThrowCoffeeActivity::class.java)
         startActivity(sIntent)
+        overridePendingTransition(R.anim.slide_in_right,
+            R.anim.slide_out_left);
     }
 
 
