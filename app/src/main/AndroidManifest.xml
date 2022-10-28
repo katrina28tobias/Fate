@@ -14,17 +14,21 @@
         android:theme="@style/Theme.Fate"
         tools:targetApi="31">
         <activity
+            android:name=".unexpectedEncounter.AskDateActivity"
+            android:exported="false"
+            android:parentActivityName=".StoryTrialActivity"/>
+        <activity
             android:name=".StoryTrialActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".unexpectedEncounter.NameErrorActivity"
             android:exported="false"
-            android:parentActivityName=".StoryTrialActivity"/>
+            android:parentActivityName=".StoryTrialActivity" />
         <activity
             android:name=".unexpectedEncounter.CoffeeShopActivity"
             android:exported="false"
-            android:parentActivityName=".StoryTrialActivity"/>
+            android:parentActivityName=".StoryTrialActivity" />
         <activity
             android:name=".StoryMenuActivity"
             android:exported="false"

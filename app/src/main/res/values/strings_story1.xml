@@ -10,4 +10,7 @@
         name wrong (he spells “basic”). </string>
     <string name="name_error_right">Throw coffee at him</string>
     <string name="name_error_left">Ask him on a date</string>
+
+    <string name="ask_date_story">You ask him on a date to slam poetry. He instantly says yes!</string>
+    <string name="ask_date_continue">Get Ready for date</string>
 </resources>
