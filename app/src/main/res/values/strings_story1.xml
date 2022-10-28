@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="coffee_shop_story">You are sitting in the coffee shop, and you really need to
+        get to business and study for your basket weaving class.
+        Chad is the barista.</string>
+    <string name="coffee_shop_continue">Get yourself some coffee</string>
+
+    <string name="name_error_story">You go up to get a Chai latte with 2 pumps of raspberry,
+        oat milk, 67% ice. Chad gives you a look and hands you the drink, spelling your
+        name wrong (he spells “basic”). </string>
+    <string name="name_error_right">Throw coffee at him</string>
+    <string name="name_error_left">Ask him on a date</string>
+</resources>

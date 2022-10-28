@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchStoryMenu() {
-        storyIntent = Intent(this, StoryMenuActivity::class.java)
+//        storyIntent = Intent(this, StoryMenuActivity::class.java)
+        storyIntent = Intent(this, StoryTrialActivity::class.java)
         startActivity(storyIntent)
     }
 
