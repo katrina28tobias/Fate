@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.menaces.fate.CoinFlipActivity
 import com.menaces.fate.R
 
 class NameErrorActivity : AppCompatActivity() {
@@ -21,6 +22,8 @@ class NameErrorActivity : AppCompatActivity() {
         rightButton.setOnClickListener {
             launchThrowCoffee()
         }
+
+
     }
 
     private fun launchAskDate() {
@@ -32,5 +35,6 @@ class NameErrorActivity : AppCompatActivity() {
         sIntent = Intent(this, ThrowCoffeeActivity::class.java)
         startActivity(sIntent)
     }
+
 
 }

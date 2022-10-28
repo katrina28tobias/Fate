@@ -11,16 +11,50 @@
     <string name="name_error_right">Throw coffee at him</string>
     <string name="name_error_left">Ask him on a date</string>
 
-    <string name="ask_date_story">You ask him on a date to slam poetry. He instantly says yes!</string>
+    <string name="ask_date_story">You ask him on a date to slam poetry.\n He instantly says yes!</string>
     <string name="ask_date_continue">Get Ready for date</string>
-    <string name="throw_coffee_story">Surprisingly, he’s into getting hot drinks thrown at him, coffee being his number one. He asks you on a date.</string>
+
+    <string name="throw_coffee_story">Surprisingly, he’s into getting hot drinks thrown at him,
+        coffee being his number one. He asks you on a date.</string>
+
     <string name="choose_date_option_story">Choose date option</string>
+
     <string name="choose_date_story">You can either</string>
     <string name="go_rollerblading_story">Go rollerblading</string>
     <string name="go_to_slam_poetry_story">Go to slam poetry</string>
-    <string name="slam_poetry_story_p1">You get ready for slam poetry and meet Chad in front of the dark alleyway: the entrance to slam poetry. A chill goes up your spine. Chad, noticing, quickly strips off his jacket and gently places it around your shoulders. Nudging him with your elbow, you both enter the land of slam poetry.</string>
-    <string name="slam_poetry_story_p2">A man – tall, lean, hair perfectly gelled back – stands in front of the mic. I look over to Chad and he’s frozen. Who is this man? Mystery Man takes a deep breath and begins to recite his poem: Pick up the phone I’m all alone Chad, what a lad You make me so sad I’m going mad Because of what we had Oh Chad Wouldn’t it be quite rad To go back to the past We had a blast</string>
-    <string name="slam_poetry_story_p3">Before people have the chance to boo, much less snap their fingers, Chad leaves my side and quickly rushes to the stage. As if they were actors in the “You Belong with Me” music video, Chad pulls out a sheet of paper and recites his poem, staring into Mystery Man’s eyes like they were the last things he’ll ever see: Steve, I didn’t leave How I grieve I can’t believe I didn’t see What was right in front of me Will you marry me?</string>
+
+    <string name="slam_poetry_story_p1">You get ready for slam poetry and meet Chad in front of the
+        dark alleyway: the entrance to slam poetry. A chill goes up your spine. Chad, noticing,
+        quickly strips off his jacket and gently places it around your shoulders.
+        Nudging him with your elbow, you both enter the land of slam poetry.</string>
+
+    <string name="slam_poetry_story_p2">A man – tall, lean, hair perfectly gelled back – stands in
+        front of the mic. I look over to Chad and he’s frozen. Who is this man? Mystery Man takes a
+        deep breath and begins to recite his poem:\n
+        \n
+        Pick up the phone\n
+        I’m all alone\n
+        Chad, what a lad\n
+        You make me so sad\n
+        I’m going mad\n
+        Because of what we had\n
+        Oh Chad, Wouldn’t it be quite rad\n
+        To go back to the past\n
+        We had a blast</string>
+
+    <string name="slam_poetry_story_p3">Before people have the chance to boo, much less snap their
+        fingers, Chad leaves my side and quickly rushes to the stage. As if they were actors in the
+        “You Belong with Me” music video, Chad pulls out a sheet of paper and recites his poem,
+        staring into Mystery Man’s eyes like he’s the only person that matters:\n
+        \n
+        Steve, I didn’t leave\n
+        How I grieve\n
+        I can’t believe\n
+        I didn’t see\n
+        What was right in front of me\n
+        Will you marry me?</string>
+
+
     <string name="proposal_story">And with that, Chad is down on one knee, ring in hand. Steve, already in tears, nods his head yes. They happily embrace. The crowd goes wild. You can either</string>
     <string name="proposal_left">Stay to congratulate</string>
     <string name="proposal_right">Become a nun</string>
