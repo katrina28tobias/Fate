@@ -14,9 +14,23 @@
         android:theme="@style/Theme.Fate"
         tools:targetApi="31">
         <activity
+            android:name=".unexpectedEncounter.SlamPoetryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unexpectedEncounter.RollerbladingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unexpectedEncounter.ChooseDateActivity"
+            android:exported="false"
+            android:parentActivityName=".StoryTrialActivity" />
+        <activity
+            android:name=".unexpectedEncounter.ThrowCoffeeActivity"
+            android:exported="false"
+            android:parentActivityName=".StoryTrialActivity" />
+        <activity
             android:name=".unexpectedEncounter.AskDateActivity"
             android:exported="false"
-            android:parentActivityName=".StoryTrialActivity"/>
+            android:parentActivityName=".StoryTrialActivity" />
         <activity
             android:name=".StoryTrialActivity"
             android:exported="false"

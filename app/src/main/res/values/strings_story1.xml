@@ -13,4 +13,9 @@
 
     <string name="ask_date_story">You ask him on a date to slam poetry. He instantly says yes!</string>
     <string name="ask_date_continue">Get Ready for date</string>
+    <string name="throw_coffee_story">Surprisingly, he’s into getting hot drinks thrown at him, coffee being his number one. He asks you on a date.</string>
+    <string name="choose_date_option_story">Choose date option</string>
+    <string name="choose_date_story">You can either</string>
+    <string name="go_rollerblading_story">Go rollerblading</string>
+    <string name="go_to_slam_poetry_story">Go to slam poetry</string>
 </resources>

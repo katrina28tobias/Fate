@@ -16,10 +16,21 @@ class NameErrorActivity : AppCompatActivity() {
         leftButton.setOnClickListener {
             launchAskDate()
         }
+
+        val rightButton : Button = findViewById(R.id.name_error_right_button)
+        rightButton.setOnClickListener {
+            launchThrowCoffee()
+        }
     }
 
     private fun launchAskDate() {
         sIntent = Intent(this, AskDateActivity::class.java)
         startActivity(sIntent)
     }
+
+    private fun launchThrowCoffee() {
+        sIntent = Intent(this, ThrowCoffeeActivity::class.java)
+        startActivity(sIntent)
+    }
+
 }
